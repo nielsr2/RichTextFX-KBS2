@@ -112,37 +112,13 @@ public class KBS extends HBox {
      */
     //    TODO 1
 
-    public void colorGrey(Color grColorGrey1, Color grColorGrey2) {
-        Stop[] stopsGrey = new Stop[]{new Stop(0, grColorGrey1), new Stop(1, grColorGrey2)};
-        LinearGradient lgGrey = new LinearGradient(1, 0, 0, 0, true, CycleMethod.NO_CYCLE, stopsGrey);
+    public void setColor(Color color1, Color color2) {
+        Stop[] stopsColor = new Stop[]{new Stop(0, color1), new Stop(1, color2)};
+        LinearGradient lgColor = new LinearGradient(1, 0, 0, 0, true, CycleMethod.NO_CYCLE, stopsColor);
 
-        Rectangle backgroundRectGrey = new Rectangle(170, 50);
-        backgroundRectGrey.setFill(lgGrey);
+        this.backgroundRect.setFill(lgColor);
     }
 
-    public void colorRed(Color grColorRed1, Color grColorRed2) {
-        Stop[] stopsRed = new Stop[]{new Stop(0, grColorRed1), new Stop(1, grColorRed2)};
-        LinearGradient lgRed = new LinearGradient(1, 0, 0, 0, true, CycleMethod.NO_CYCLE, stopsRed);
-
-        Rectangle backgroundRectRed = new Rectangle(170, 50);
-        backgroundRectRed.setFill(lgRed);
-    }
-
-    public void colorYellow(Color grColorYellow1, Color grColorYellow2) {
-        Stop[] stopsYellow = new Stop[]{new Stop(0, grColorYellow1), new Stop(1, grColorYellow2)};
-        LinearGradient lgYellow = new LinearGradient(1, 0, 0, 0, true, CycleMethod.NO_CYCLE, stopsYellow);
-
-        Rectangle backgroundRectYellow = new Rectangle(170, 50);
-        backgroundRectYellow.setFill(lgYellow);
-    }
-
-    public void colorGreen(Color grColorGreen1, Color grColorGreen2) {
-        Stop[] stopsGreen = new Stop[]{new Stop(0, grColorGreen1), new Stop(1, grColorGreen2)};
-        LinearGradient lgGreen = new LinearGradient(1, 0, 0, 0, true, CycleMethod.NO_CYCLE, stopsGreen);
-
-        Rectangle backgroundRectGreen = new Rectangle(170, 50);
-        backgroundRectGreen.setFill(lgGreen);
-    }
 
 
     public FadeTransition fade(double opacityEnd, double time) {
