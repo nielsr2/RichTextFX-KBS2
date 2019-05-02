@@ -107,7 +107,7 @@ public class RichTextDemo extends Application {
         Mnemonic mn = new Mnemonic(boldBtn, kc);
         Runnable rn = () -> this.toggleBold();
 //      *********************************************************************************************************
-        // TODO DO THE SAME FOR THE STUFF BELOW: SEE ANOTHER TODO FOR WHERE YOU
+        // TODO DO THE SAME FOR THE STUFF BELOW: SEE ANOTHER TODO FOR WHERE YOU put it
 
 
 
@@ -307,7 +307,7 @@ public class RichTextDemo extends Application {
         Scene scene = new Scene(root, 600, 400);
         scene.getStylesheets().add(RichTextDemo.class.getResource("rich-text.css").toExternalForm());
 
-//      TODO  OH, MNEMONICS BEING ADD HERE.
+//      TODO  OH, MNEMONICS BEING ADDed HERE.
 //      ************************************************************************************
         scene.addMnemonic(mn);
         scene.getAccelerators().put(kc, rn);

@@ -96,7 +96,7 @@ public class KBS extends HBox {
         });
     }
     KBS(){}
-// TODO CAN WE MAYBE JUST CALL THE FUNCTION USE FOR THIS PARAM, INSIDE HERE
+// TODO CAN WE MAYBE JUST CALL THE FUNCTION USE FOR THIS PARAM, INSIDE KBSMANAGER
 //    KBS(String oprSystem) {
 //        this.oprSystem = oprSystem;
 //    }
