@@ -28,8 +28,6 @@ public class KBSManager extends FlowPane {
     void AddButtonOrFunctionAsKBS(Button buttonObjectToMaybeReturn,
                                   String Functionality,
                                   String ToolbarImage){
-
-
     };
 }
 //    private SVGPath _init() {

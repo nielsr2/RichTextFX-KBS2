@@ -20,6 +20,7 @@ public class KBS extends HBox {
     private String oprSystem;
     private boolean visible = false;
     protected int kbsTimesUsed = 0;
+    String functionality;
     protected int tbTimesClicked = 0;
     private int nrOnList;
     private boolean pinned;
